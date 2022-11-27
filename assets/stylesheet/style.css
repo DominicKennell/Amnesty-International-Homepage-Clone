@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li{
+    list-style: none;
+    float: left;
+    padding-right: 15px;
+}
+
+.navbar li a{
+    color: black;
+    display: flex;
+}
+
+.header-container{
+    display: flex;
+    padding-right: 25px;
+}
+
+.donate-para{
+    background-color: blue;
+    color: white;
+    margin-left: 25px;
+}
+
+.featured-help{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 25px;
+}
+
+.featured-help h1{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 75px;
+
+}
+
+.featured-help img{
+    height: 400px;
+}
+
+.featured-help button{
+    background-color: blue;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
